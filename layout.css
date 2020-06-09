@@ -1,0 +1,33 @@
+/*grid*/
+.l-grid-3col{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 40px;
+    height: 75vh;
+    padding-bottom: 60px;
+}
+/*wrappers*/
+.l-wrapper{
+    max-width: 1200px;
+    margin: auto;
+}
+/*orientation*/
+.l-push-right{
+    margin-left: auto;
+}
+.l-push-center{
+    margin: auto;
+}
+.l-push-text-center{
+    text-align: center;
+}
+/*flex*/
+.l-flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.l-flex-col{
+    display: flex;
+    flex-direction: column;
+}

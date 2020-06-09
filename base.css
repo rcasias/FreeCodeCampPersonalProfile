@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    cursor: pointer;
+    padding: 0px;
+    text-decoration: none;
+    color: var(--color-main-font);
+}
+button{
+    cursor: pointer;
+}

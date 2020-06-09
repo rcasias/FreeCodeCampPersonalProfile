@@ -1,0 +1,116 @@
+/*nav bar*/
+.m-navbar__font{
+    font-size: 2.5em;
+    list-style-type: none;
+}
+.m-navbar__menu-item{
+    padding-left: 55px;
+}
+.m-navbar{
+    background: var(--color-accent);
+    color: var(--color-main);
+    line-height: 55px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+/*full display*/
+.m-dsp-full{
+    height: 100vh;
+}
+.m-dsp-full__text{
+    justify-content: center; 
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+/*background*/
+.background-dark{
+    background-color: var(--color-background-option-one);
+}
+.background-blue__with-padding{
+    background-color: var(--color-background-option-two);
+    padding: 90px 0px;
+}
+.accent__background-red{
+    background: var(--color-accent);
+    padding: 3px
+}
+/*font*/
+.m-font__large{
+    font-size: 4.2em;
+    color: var(--color-main-font);
+}
+.m-font__huge{
+    font-size: 6em;
+    color: var(--color-main-font);
+}
+.m-font__small{
+    font-size: 1.8em;
+    color: var(--color-main-font);
+    line-height: 50px;
+    font-weight: 400;
+}
+.m-font__medium{
+    font-size: 1.8em;
+    line-height: 60px;
+    color: var(--color-main-font);
+}
+/*buttons*/
+.btn-dark{
+    color: var(--color-main-font);
+    font-size: 2em;
+    background-color: var(--color-background-option-one);
+    padding: 10px 20px;
+    border: none;
+}
+.btn-dark:hover{
+    background-color: var(--color-accent);
+}
+.btn-no-border{
+    color: var(--color-main-font);
+    margin: 0px auto;
+    line-height: 60px;
+    padding: 10px 20px;
+    transition: transform 0.3s ease-out;
+}
+.btn-no-border:hover{
+    transform: translateY(8px) ;
+}
+/*grid*/
+.m-grid{
+    border: 1px solid black;
+    width: 100%
+}
+/*projet grid styling*/
+.m-project-title{
+    background-color: var(--color-background-option-one);
+    text-align: center;
+    width: 100%;
+}
+.m-project-title__text{
+    color: var(--color-main-font);
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 80px;
+    z-index: 7;
+}
+.m-project-img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+.m-project-img:hover{
+    opacity: .5;
+}
+.m-grid-hover-font{
+    font-size: 2.5em;
+    padding: 10px;
+    color: orange;
+    display: none;
+}
+.m-project-title__text:hover .m-grid-hover-font {
+    display: inherit;
+}
+
+
